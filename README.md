@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Recipe page
 
 ![Design preview for the Recipe page coding challenge](./preview.jpg)
@@ -87,3 +88,7 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# recipe-page-main
+Frontend Mentor Newbie Challenger
+>>>>>>> 6fc76c65ed31d84e6a00391632b77a52cbeda9f2
