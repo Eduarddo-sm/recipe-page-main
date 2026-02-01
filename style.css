@@ -32,13 +32,16 @@ body {
     border-radius: 10px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     overflow-wrap: break-word;
     font-family: "Young Serif", serif;
     font-weight: 400;
 }
 
-p, li {
+p,
+li {
     font-family: "Outfit", sans-serif;
     font-size: 14px;
     color: hsl(30, 10%, 34%);
@@ -112,5 +115,26 @@ hr {
     opacity: 0.5;
 }
 
+.instructions h2 {
+    margin: 25px 0 10px;
+    color: hsl(14, 45%, 36%);
+}
 
+.instructions ol {
+    list-style-position: inside;
+    line-height: 1.6;
+}
 
+.instructions li {
+    margin-bottom: 5px;
+}
+
+.instructions strong {
+    margin-left: 5px;
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    margin-right: 50px;
+    font-weight: 800;
+}
