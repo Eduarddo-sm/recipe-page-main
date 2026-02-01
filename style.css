@@ -32,11 +32,14 @@ body {
     border-radius: 10px;
 }
 
-h1 {
+h1, h2, h3 {
+    overflow-wrap: break-word;
     font-family: "Young Serif", serif;
+    font-weight: 400;
 }
 
-p {
+p, li {
+    font-family: "Outfit", sans-serif;
     font-size: 14px;
     color: hsl(30, 10%, 34%);
 }
@@ -45,47 +48,69 @@ p {
     margin: 50px 0;
 }
 
-.card-content .description h1 {
+.description h1 {
     margin-bottom: 30px;
-    overflow-wrap: break-word;
     font-weight: 400;
 
 }
 
-.card-content .description p {
-    font-family: "Outfit", sans-serif;
+.description p {
     text-align: justify;
     line-height: 1.6;
 }
 
-.card-content .preparation-time {
+.preparation-time {
     background: hsl(330, 100%, 98%);
     padding: 25px;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
-.card-content .preparation-time h3 {
+.preparation-time h3 {
     color: hsl(332, 51%, 32%);
-    overflow-wrap: break-word;
 }
 
-.card-content .preparation-time ul {
+.preparation-time ul {
     list-style-position: inside;
     line-height: 2.0;
 }
 
-.card .preparation-time li {
+.preparation-time li {
     overflow-wrap: break-word;
-    font-family: "Outfit", sans-serif;
-    font-size: 14px;
     color: hsl(30, 10%, 34%);
 }
 
-.card .preparation-time strong {
+.preparation-time strong {
     font-weight: 600;
 }
 
-.card-content .preparation-time li::marker {
-    font-size: 0.8rem;
+.preparation-time li::marker {
+    color: hsl(332, 51%, 32%);
 }
+
+.igredients h2 {
+    margin: 25px 0 10px;
+    color: hsl(14, 45%, 36%);
+}
+
+.igredients ul {
+    list-style-position: inside;
+    line-height: 2.0;
+}
+
+.igredients li {
+    overflow-wrap: break-word;
+}
+
+.igredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+hr {
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid hsl(32, 8%, 69%);
+    opacity: 0.5;
+}
+
+
 
