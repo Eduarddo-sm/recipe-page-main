@@ -27,8 +27,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Solution FrontEnd]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/recipe-page-responsive-with-html-and-css-rtlLg75L9b))
-- Live Site URL: [Live Server]([https://your-live-site-url.com](https://eduarddo-sm.github.io/recipe-page-main/))
+- Solution URL: [Solution FrontEnd](https://your-solution-url.com)
+- Live Site URL: [Live Server](https://eduarddo-sm.github.io/recipe-page-main/)
 
 ## My process
 
