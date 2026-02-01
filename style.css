@@ -57,3 +57,35 @@ p {
     text-align: justify;
     line-height: 1.6;
 }
+
+.card-content .preparation-time {
+    background: hsl(330, 100%, 98%);
+    padding: 25px;
+     border-radius: 10px;
+}
+
+.card-content .preparation-time h3 {
+    color: hsl(332, 51%, 32%);
+    overflow-wrap: break-word;
+}
+
+.card-content .preparation-time ul {
+    list-style-position: inside;
+    line-height: 2.0;
+}
+
+.card .preparation-time li {
+    overflow-wrap: break-word;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    color: hsl(30, 10%, 34%);
+}
+
+.card .preparation-time strong {
+    font-weight: 600;
+}
+
+.card-content .preparation-time li::marker {
+    font-size: 0.8rem;
+}
+
